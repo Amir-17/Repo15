@@ -4,9 +4,9 @@ function checkVariableScope() {
     if (true) {
        let i = 'block variable';
         console.log('Scope i is: ', i);
-    }
+    };
     console.log('Scope i is: ', i);
     return i;
 };
-checkVariableScope();
+console.log(checkVariableScope());
 module.exports = checkVariableScope;

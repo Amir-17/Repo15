@@ -6,6 +6,6 @@ function myArr(mili) {
     mili[2] = 25;
 
     return mili;
-}
+};
 console.log(myArr(milili));
 module.exports = myArr;
